@@ -13,7 +13,7 @@ import org.jglrxavpok.hephaistos.nbt.NBTCompound;
 
 import java.util.Locale;
 
-sealed public interface Biome extends ProtocolObject permits BiomeImpl {
+public sealed interface Biome extends ProtocolObject permits BiomeImpl {
     /**
      * Returns the entity registry.
      *
